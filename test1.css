@@ -1,0 +1,306 @@
+.Nextpage-btn{
+    margin-left: 50%;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+
+}
+.Nextpage-btn a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.Nextpage-btn:hover a{
+    color: white;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.red {
+    background-color: rgba(255, 0, 0, 0.705);
+    width: 200px;
+    position: relative;
+    height: 200px;
+    left: 100px;
+    font-size: 200%;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+
+}
+
+.green {
+    font-weight: bold;
+    background-color: rgba(0, 128, 0, 0.527);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -80px;
+    left: 200px;
+    font-size: 200%;
+}
+
+.redlist {
+    font-family: serif;
+    font-size: 17px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.greenlist {
+    font-size: 17px;
+    font-style: italic;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+#tags {
+    background-color: rgba(127, 255, 212, 0.774);
+    width: 500px;
+    height: 250px;
+    position: relative;
+    left: 100px;
+    text-align: center;
+}
+.Lt-def{
+    width: 1330px;
+    margin: 0 auto;
+}
+.deflist{
+    border-radius: 15px;
+    border: 2px ridge dodgerblue;
+    width: 18%;
+    /* float: left 3; */
+    display: inline-block;
+    margin: 0 9px;
+    text-align: center;
+
+}
+.deftitle{
+    padding: 30px 0;
+
+    /* margin: 30px 0; */
+}
+.defdata {
+    margin: 0%;
+    text-align: center;
+    padding-top: 20px;
+    height: 250px;    
+    /* padding: 0%; */
+    /* padding-top: 50px; */
+    background-color: rgba(186, 197, 35, 0.733);  
+    border-radius: 15px;
+}
+
+/* Pseudo Element this is used "::" */
+.defdata::first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+.defdata::first-line {
+    font-style: italic;
+
+}
+
+/* Pseudo Class this is used ":"  */
+.button_class:focus {
+    color: orange;
+}
+
+.button_class:hover {
+    color: red;
+}
+
+
+.Weekplan {
+    margin-left: 100px;
+    width: 50%;
+    background-color: yellowgreen;
+    /* border:5px dotted black; */
+    border-width: 10px 15px thick 20px;
+    border-color: red green yellow;
+    border-style: double ridge solid dashed;
+}
+
+.days a {
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Shadow for text { (l,-r) (-t, b) (blur) (color of shadow)} */
+.titleh1 {
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+    left: 0%;
+    text-shadow: -2px -2px 2px rgb(71, 144, 226);
+}
+
+.top-ul {
+    position: absolute;
+    /* left: 30%; */
+    right: 0%;
+    top: 0%;
+    width: auto;
+    background-color: darkorange;
+    padding: 0px;
+    border-radius: 15px 0 0 15px;
+}
+
+.top-ul li {
+    padding: 0 10px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    padding-bottom: -20px;
+}
+
+/* .top-ul li:hover {
+    /* border-radius: 0 0 35px; */
+    /* background-color: aqua; */
+
+/* } */ 
+
+.top-ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.top-ul a:hover{
+    color: white;
+    border-bottom: 3px solid black;
+
+}
+
+#web-page {
+    display: none;
+}
+
+#vsbty-page {
+    visibility: hidden;
+}
+
+.box {
+    /* background-color: black; */
+    /* background-image: url('../../images/Background.jpg');
+    background-repeat:no-repeat;
+    background-position: left center;
+    background-attachment:fixed; */
+    background: lightslategray url('../../images/Background.jpg') no-repeat left center fixed;
+    padding: 20px 0;
+    
+}
+
+.box div {
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    /* display: inline-block; */
+    margin-left: 50%;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#box1 {
+    box-shadow: inset 0 0 20px yellowgreen;
+}
+
+
+/* box-shadow: R/-L, -T/B, SPREAD, BULR */
+#box2:hover {
+    box-shadow: inset 0 0 20px yellowgreen;
+    border-radius: 20px 0 20px 0;
+}
+
+#box2 {
+    border-radius: 20px 0;
+    text-align: center;
+    /* line-height: 10px; */
+}
+
+.first ol li {
+    list-style-type: upper-alpha;
+}
+
+.first ul li {
+    list-style-type: square;
+
+}
+
+table {
+    border-collapse: collapse;
+    /* empty-cells: hide; */
+}
+
+fieldset {
+    border: 3px ridge magenta;
+    border-radius: 0 20px 30px;
+    padding: 10px;
+}
+
+legend {
+    background-color: maroon;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px 0;
+}
+
+/* Test2 CSS */
+
+.web-page{
+    width: 85%;
+    margin: 0 auto;
+}
+#main-content{
+    width: 50%;
+    float:left;
+    margin-right: 5%;
+    
+}
+#rigt-side-nav{
+    width: 20%;
+    float:right;
+    
+}
+#left-side-nav{
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+.clear{
+    clear: both;
+}
+.content{
+    /* background-color: rgba(138, 210, 223, 0.795); */
+    /* background: rgba(138, 210, 223, 0.795) url('/../images/Rectangle-296.png') no-repeat center center; */
+    background:url('../../images/Background.jpg');
+    
+    padding: 15px;
+    color: white;
+    opacity: 100%;
+}
+#footer ul{
+    padding: 0%;
+}
+#footer ul li{
+    display: inline-block;
+}
+#footer > ul > li > a{
+color:black;
+padding-right: 20px;
+text-decoration: none;
+}
+#footer > ul > li > a:focus{
+    color: orangered;
+}
